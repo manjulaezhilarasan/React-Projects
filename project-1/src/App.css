@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --red : #d01c28;
+  --gray : #5A5959;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /*overflow: hidden;*/
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 80px;
+  
+}
+
+button {
+  all: unset;
+  background: var(--red);
+  padding: 6px 16px;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.menu-content {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+
+.menu h1 {
+  font-weight: 800;
+  font-size: 102px;
+  line-height: 98px;
+}
+
+.menu p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+
+.menu-btn {
+  display: flex;
+  gap: 40px;
+  
+}
+
+.menu-btn button {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.secondary-btn {
+  background: transparent;
+  color:var(--gray);
+  border: 1px solid var(--gray);
+}
+
+.menu-shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
